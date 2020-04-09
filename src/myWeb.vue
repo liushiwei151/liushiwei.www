@@ -1,8 +1,8 @@
 <template>
   <div id="myWeb">
-    <div class="loading" v-show="loading">
+    <!-- <div class="loading" v-show="loading">
       <div class="icon"><img src="../static/timg.gif" /></div>
-    </div>
+    </div> -->
     <router-view />
   </div>
 </template>
@@ -17,8 +17,8 @@ export default {
   }
 };
 </script>
-
-<style>
+<style lang="less">
+  // @import "./public/css/index.less"
 #myWeb {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
