@@ -18,6 +18,10 @@ export default {
 };
 </script>
 <style lang="less">
+  html,body{
+    margin: 0;
+    padding:0;
+  }
   // @import "./public/css/index.less"
 #myWeb {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -25,6 +29,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: black;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 .loading {
   position: fixed;
